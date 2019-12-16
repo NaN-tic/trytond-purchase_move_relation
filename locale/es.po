@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.move,purchase_planned_date:"
+msgid "Purchase Planned Date"
+msgstr "Fecha estimada compra"
+
+msgctxt "field:stock.move,warehouse_supplier:"
+msgid "Warehouse"
+msgstr "Almacén"
+
+msgctxt "model:ir.action,name:act_move_in_form"
+msgid "Moves In"
+msgstr "Movimentos de entrada"
+
+msgctxt "model:ir.action,name:act_party_move_in_form2"
+msgid "Moves In"
+msgstr "Movimentos de entrada"
+
+msgctxt "model:ir.action,name:act_product_move_in_form2"
+msgid "Moves In"
+msgstr "Movimentos de entrada"
+
+msgctxt "model:ir.action,name:act_product_template_move_in_form2"
+msgid "Moves In"
+msgstr "Movimentos de entrada"
+
+msgctxt "model:ir.action,name:act_purchase_move_in_form2"
+msgid "Moves In"
+msgstr "Movimentos de entrada"
+
+msgctxt "model:ir.action.act_window.domain,name:act_move_in_form_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendientes de entrada atrasados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_party_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_party_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendientes de entrada atrasados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendientes de entrada atrasados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendientes de entrada atrasados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendientes de entrada atrasados"
+
+msgctxt "model:ir.ui.menu,name:menu_move_in_form"
+msgid "Moves In"
+msgstr "Movimentos de entrada"

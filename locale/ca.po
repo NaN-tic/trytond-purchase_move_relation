@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.move,purchase_planned_date:"
+msgid "Purchase Planned Date"
+msgstr "Data estimada compra"
+
+msgctxt "field:stock.move,warehouse_supplier:"
+msgid "Warehouse"
+msgstr "Magatzem"
+
+msgctxt "model:ir.action,name:act_move_in_form"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
+
+msgctxt "model:ir.action,name:act_party_move_in_form2"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
+
+msgctxt "model:ir.action,name:act_product_move_in_form2"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
+
+msgctxt "model:ir.action,name:act_product_template_move_in_form2"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
+
+msgctxt "model:ir.action,name:act_purchase_move_in_form2"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
+
+msgctxt "model:ir.action.act_window.domain,name:act_move_in_form_domain_all"
+msgid "All"
+msgstr "Tots"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendents d'entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendents d'entrada endarrerits"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_all"
+msgid "All"
+msgstr "Tots"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_party_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendents d'entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendents d'entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_party_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendents d'entrada endarrerits"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendents d'entrada endarrerits"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_all"
+msgid "All"
+msgstr "Tots"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendents d'entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_template_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendents d'entrada endarrerits"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_all"
+msgid "All"
+msgstr "Tots"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendents d'entrada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_move_in_form_domain_pending_overdue"
+msgid "Overdue pending incoming"
+msgstr "Pendents d'entrada endarrerits"
+
+msgctxt "model:ir.ui.menu,name:menu_move_in_form"
+msgid "Moves In"
+msgstr "Moviments d'entrada"
