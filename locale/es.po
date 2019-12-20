@@ -6,6 +6,10 @@ msgctxt "field:stock.move,purchase_planned_date:"
 msgid "Purchase Planned Date"
 msgstr "Fecha estimada compra"
 
+msgctxt "field:stock.move,shipment_supplier:"
+msgid "Supplier"
+msgstr "Proveedor"
+
 msgctxt "field:stock.move,warehouse_supplier:"
 msgid "Warehouse"
 msgstr "Almacén"
@@ -45,7 +49,7 @@ msgid "Overdue pending incoming"
 msgstr "Pendientes de entrada atrasados"
 
 msgctxt ""
-"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_all"
+"model:ir.action.act_window.domain,name:act_party_move_in_form_domain_all"
 msgid "All"
 msgstr "Todos"
 
@@ -55,14 +59,19 @@ msgid "Pending incoming"
 msgstr "Pendientes de entrada"
 
 msgctxt ""
-"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending"
-msgid "Pending incoming"
-msgstr "Pendientes de entrada"
-
-msgctxt ""
 "model:ir.action.act_window.domain,name:act_party_move_in_form_domain_pending_overdue"
 msgid "Overdue pending incoming"
 msgstr "Pendientes de entrada atrasados"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending"
+msgid "Pending incoming"
+msgstr "Pendientes de entrada"
 
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_product_move_in_form_domain_pending_overdue"
