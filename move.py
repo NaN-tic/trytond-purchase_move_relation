@@ -39,8 +39,10 @@ class Move(metaclass=PoolMeta):
                         res[name][move.id] = (move.to_location.warehouse.id
                             if move.to_location.warehouse else None)
                 elif name == 'shipment_supplier':
-                    res[name][move.id] = (move.shipment.supplier.id
-                            if move.shipment else None)
+                    if move.shipment:
+                        res[name][move.id] = move.shipment.supplier.id
+                    elif move.purchase:
+                        res[name][move.id] = move.purchase.party.id
         return res
 
     @classmethod
@@ -65,4 +67,6 @@ class Move(metaclass=PoolMeta):
                 + tuple(clause[3:]),
             ('shipment.supplier' + clause[0].lstrip(name),)
                 + tuple(clause[1:3]) + ('stock.shipment.in',)
-                + tuple(clause[3:])]
+                + tuple(clause[3:]),
+            ('purchase.party',) + tuple(clause[1:]),
+            ]
