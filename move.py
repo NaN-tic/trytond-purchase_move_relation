@@ -8,6 +8,10 @@ __all__ = ['Move']
 
 class Move(metaclass=PoolMeta):
     __name__ = 'stock.move'
+
+    purchase_date = fields.Function(fields.Date(
+        'Purchase Date'), 'get_purchase_relation',
+        searcher='search_purchase_planned_date')
     purchase_planned_date = fields.Function(fields.Date(
         'Purchase Planned Date'), 'get_purchase_relation',
         searcher='search_purchase_planned_date')
@@ -23,11 +27,14 @@ class Move(metaclass=PoolMeta):
 
         for name in names:
             for move in moves:
+                if name == 'purchase_date':
+                    res[name][move.id] = (move.purchase.purchase_date
+                        if hasattr('purchase', move) else None)
                 if name == 'purchase_planned_date':
                     res[name][move.id] = ((move.origin.delivery_date_store
                         or (move.origin.purchase
                         and move.origin.purchase.delivery_date)) if (move.origin
-                        and move.origin.__name__ == 'purchase.line') else None)
+                        and move.origin.__name__ == 'purchase.line') else move.planned_date)
                 elif name == 'warehouse_supplier':
                     if move.shipment and move.shipment.__name__ == 'stock.shipment.in':
                         res[name][move.id] = (move.to_location.warehouse.id
