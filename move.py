@@ -29,7 +29,7 @@ class Move(metaclass=PoolMeta):
             for move in moves:
                 if name == 'purchase_date':
                     res[name][move.id] = (move.purchase.purchase_date
-                        if hasattr('purchase', move) else None)
+                        if move.purchase else None)
                 if name == 'purchase_planned_date':
                     res[name][move.id] = ((move.origin.delivery_date_store
                         or (move.origin.purchase
