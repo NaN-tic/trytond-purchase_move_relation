@@ -5,7 +5,6 @@ this repository contains the full copyright notices and license terms. -->
     <field name="shipment_supplier"/>
     <field name="purchase"/>
     <field name="shipment" expand="1"/>
-    <field name="production_output"/>
     <field name="product"/>
     <field name="quantity"/>
     <field name="uom"/>
